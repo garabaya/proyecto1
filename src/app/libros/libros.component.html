@@ -1,0 +1,5 @@
+<ul>
+    <!--<li *ngFor="let libro of libros">{{ indice }}-{{ libro.titulo }} - autor: {{ libro.autor }}</li>-->
+    <!-- <li *ngFor="let libro of libros"><a href="https://www.google.com/search?q={{ libro.titulo }}">{{ libro.titulo }}</a></li> -->
+    <li *ngFor="let libro of libros"><a (click)="showAuthor(libro)">{{ libro.titulo }}</a></li>
+</ul>

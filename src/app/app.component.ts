@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'proyecto1';
   condicion: boolean = true;
   so: string;
+  color: string;
 }

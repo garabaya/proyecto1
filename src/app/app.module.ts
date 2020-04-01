@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PrimercomponenteComponent } from './primercomponente/primercomponente.component';
 import { RandomComponent } from './random/random.component';
 import { ColorComponent } from './color/color.component';
+import { LibrosComponent } from './libros/libros.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimercomponenteComponent,
     RandomComponent,
-    ColorComponent
+    ColorComponent,
+    LibrosComponent
   ],
   imports: [
     BrowserModule,
